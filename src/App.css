@@ -1,0 +1,58 @@
+.App{
+  height: 100vh;
+  width: 100vw;
+  color: aliceblue;
+}
+
+
+
+.chatbot-container {
+  position: fixed;
+  bottom: 10px;
+  right: 70px;
+  z-index: 1000;
+ 
+}
+
+.chatbot {
+  width: 30vw;
+  height: 70vh;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4p7x 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.chatbot-header {
+  height: 60px;
+  border-bottom: 1px solid #ddd;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.chat-window {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.chat-input {
+  border-top: 1px solid #ddd;
+}
+
+.typing-input {
+  font-size: 16px;
+  caret-color: red; 
+}
+
+/* Open chatbot button */
+.open-chatbot-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 70px;
+  z-index: 1001;
+  border-radius: 50px;
+  width: 30vw;
+  height: 50px;
+}
